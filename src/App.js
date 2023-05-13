@@ -9,9 +9,6 @@ function App() {
     <div className="App">
       <NavBar />
       <Particle />
-      <div>
-        <h1>FUCK</h1>
-      </div>
       <Home />
     </div>
   );

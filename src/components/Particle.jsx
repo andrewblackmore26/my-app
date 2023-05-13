@@ -16,16 +16,16 @@ function Particle() {
   }, []);
 
   return (
-    <>
+    <div className="wrapper">
     <Particles
       id =  "tsparticles"
       init={particlesInit}
       Loaded={particlesLoaded}
-      height={500}
+      height={900}
       options={{
         "fullScreen": {
             "enable": false,
-            "zIndex": -1
+            "zIndex": -20
         },
         fpsLimit: 60,
         "particles": {
@@ -40,7 +40,7 @@ function Particle() {
               width: 1,
           },
           collisions: {
-              enable: true,
+              enable: false,
           },
           move: {
               direction: "none",
@@ -49,8 +49,12 @@ function Particle() {
                   default: "bounce",
               },
               random: false,
-              speed: 6,
+              speed: {
+                min: 3,
+                max: 5
+              },
               straight: false,
+              maxSpeed: 4,
           },
           number: {
               density: {
@@ -103,10 +107,13 @@ function Particle() {
         }
     }}
     />
-    <div>
-      <h1>Hi</h1>
-    </div>
-    </>  
+      <div className="fuck">
+        <h1>Hey there!😄<br />
+        I'm Andrew Blackmore, <br />
+        a Software Engineer from <br />
+        Sydney, Australia.</h1>
+      </div>
+    </div>  
   )
 }
 

@@ -9,7 +9,7 @@ function NavBar() {
         <Container>
           <Row>
             <Col lg={6}>
-            <h1>Andrew Blackmore - Porfolio</h1>
+            <h1>AB - Porfolio</h1>
             </Col>
             <Col></Col>
             <Col className="links" lg={3}>

@@ -3,13 +3,29 @@
   background: black;
 }
 
+.fuck {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin-top: 300px;
+  z-index: 5;
+}
+
+.fuck h1 {
+  display:flex;
+  color: rgba(255, 255, 255, 0.801) !important;
+  font-size: 75px;
+  text-align: left;
+  justify-content: center;
+  margin-right: 100px;
+}
 
 body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  z-index: 1;
   color: rgb(255, 255, 255);
   font-family: 'Centra', sans-serif;
 }
-
