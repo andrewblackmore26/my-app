@@ -13,11 +13,10 @@ function NavBar() {
             </Col>
             <Col></Col>
             <Col className="links" lg={3}>
+            <Nav.Link className="navbar-link" href="#">Home</Nav.Link>
             <Nav.Link className="navbar-link" href="#">About</Nav.Link>
             <Nav.Link className="navbar-link" href="#">Projects</Nav.Link>
-            
             <Nav.Link className="navbar-link" href="#">Skills</Nav.Link>
-            <Nav.Link className="navbar-link" href="#">Resume</Nav.Link>
             </Col>
           </Row>    
         </Container>  
