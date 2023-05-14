@@ -33,7 +33,6 @@ h1 {
 }
 
 .navbar-link:hover {
-  background-color: rgb(107, 107, 107);
-  color: black;
-  padding: 5px 5px;
+  text-decoration: underline;
+
 }

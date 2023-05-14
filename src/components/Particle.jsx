@@ -16,7 +16,7 @@ function Particle() {
   }, []);
 
   return (
-    <div className="wrapper">
+    <div>
     <Particles
       id =  "tsparticles"
       init={particlesInit}
@@ -109,7 +109,7 @@ function Particle() {
     />
       <div className="fuck">
         <h1>Hey there!😄<br />
-        I'm Andrew Blackmore, <br />
+        I'm <span className="teal">Andrew Blackmore</span>, <br />
         a Software Engineer from <br />
         Sydney, Australia.</h1>
       </div>
