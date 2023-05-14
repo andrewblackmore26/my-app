@@ -26,7 +26,7 @@
 .teal {
   color: rgba(0, 119, 255, 0.801) !important;
   background: -webkit-linear-gradient(#fffb00, rgba(0, 255, 13, 0.801));
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 

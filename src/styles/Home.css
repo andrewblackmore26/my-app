@@ -19,3 +19,14 @@
   margin-bottom: 20px;
   
 }
+
+.icons {
+  font-size: 40px;
+  display: flex;
+  width: 200px;
+  justify-content: space-between;
+}
+
+.icon {
+  color: black;
+}
