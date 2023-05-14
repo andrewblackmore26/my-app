@@ -28,5 +28,10 @@
 }
 
 .icon {
-  color: black;
+  color: rgb(43, 43, 43);
+}
+
+.icon:hover {
+  color: #000000;
+  text-shadow: 5 5 10px #000000;
 }
