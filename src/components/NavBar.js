@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles/NavBar.css'
 import { Navbar, Nav, Container, Row, Col } from "react-bootstrap"
+import { Link } from "react-scroll";
 
 function NavBar() {
 
@@ -13,9 +14,9 @@ function NavBar() {
             </Col>
             <Col></Col>
             <Col className="links" lg={3}>
-            <Nav.Link className="navbar-link" href="#">Home</Nav.Link>
-            <Nav.Link className="navbar-link" href="#">About</Nav.Link>
-            <Nav.Link className="navbar-link" href="#">Projects</Nav.Link>
+            <Nav.Link className="navbar-link" to="/">Home</Nav.Link>
+            <Nav.Link className="navbar-link" to="/about">About</Nav.Link>
+            <Nav.Link className="navbar-link" to="home" spy={true} smooth={true}>Projects</Nav.Link>
             <Nav.Link className="navbar-link" href="#">Skills</Nav.Link>
             </Col>
           </Row>    
