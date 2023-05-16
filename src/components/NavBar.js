@@ -16,8 +16,7 @@ function NavBar() {
             <Col className="links" lg={3}>
             <Link className="link" to="home" smooth={true} duration={500}>Home</Link>
             <Link className="link" to="about" smooth={true} duration={500}>About</Link>
-            <Link className="link" to="Projects" smooth={true} duration={500}>Projects</Link>
-            <Link className="link" to="Skills" smooth={true} duration={500}>Skills</Link>
+            <Link className="link" to="skills" smooth={true} duration={500}>Skills</Link>
             </Col>
           </Row>    
         </Container>  
