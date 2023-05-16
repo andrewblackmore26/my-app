@@ -3,7 +3,7 @@
   background: black;
 }
 
-.fuck {
+.maintext {
   position: absolute;
   top: 0;
   left: 0;
@@ -12,7 +12,7 @@
   z-index: 5;
 }
 
-.fuck h1 {
+.maintext h1 {
   display:inline-block;
   color: rgba(255, 255, 255, 0.801) !important;
   font-size: 75px;
