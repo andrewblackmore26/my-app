@@ -25,15 +25,17 @@ h1 {
 
 .link {
   font-weight: 400;
-  color: #fff !important;
+  color: #ffffffd3 !important;
   letter-spacing: 0.8px;
   font-size: 15px;
   opacity: 0.75;
   padding: 10px;
   text-decoration: none;
+
 }
 
 .link:hover {
   text-decoration: underline;
   color: white !important;
+  cursor: pointer;
 }
