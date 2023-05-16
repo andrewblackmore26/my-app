@@ -14,10 +14,10 @@ function NavBar() {
             </Col>
             <Col></Col>
             <Col className="links" lg={3}>
-            <Nav.Link className="navbar-link" to="/">Home</Nav.Link>
-            <Nav.Link className="navbar-link" to="/about">About</Nav.Link>
-            <Nav.Link className="navbar-link" to="home" spy={true} smooth={true}>Projects</Nav.Link>
-            <Nav.Link className="navbar-link" href="#">Skills</Nav.Link>
+            <Link className="link" to="home" smooth={true} duration={500}>Home</Link>
+            <Link className="link" to="about" smooth={true} duration={500}>About</Link>
+            <Link className="link" to="Projects" smooth={true} duration={500}>Projects</Link>
+            <Link className="link" to="Skills" smooth={true} duration={500}>Skills</Link>
             </Col>
           </Row>    
         </Container>  

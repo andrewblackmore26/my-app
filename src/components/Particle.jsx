@@ -16,7 +16,7 @@ function Particle() {
   }, []);
 
   return (
-    <div>
+    <div name="home">
     <Particles
       id =  "tsparticles"
       init={particlesInit}

@@ -23,16 +23,17 @@ h1 {
   
 }
 
-.navbar-link {
+.link {
   font-weight: 400;
   color: #fff !important;
   letter-spacing: 0.8px;
-  font-size: 25px;
+  font-size: 15px;
   opacity: 0.75;
   padding: 10px;
+  text-decoration: none;
 }
 
-.navbar-link:hover {
+.link:hover {
   text-decoration: underline;
-
+  color: white !important;
 }

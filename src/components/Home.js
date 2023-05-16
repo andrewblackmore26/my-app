@@ -5,7 +5,7 @@ import {FiMail} from "react-icons/fi";
 
 function Home() {
   return (
-    <div className="home-container">
+    <div className="home-container" name="about">
       <h2>Welcome to my portfolio website</h2>
       <p>Here you can find information about me and my work <br></br>
       Whether it be new projects or new experiences, these events will be uploaded/linked to here <br></br>
