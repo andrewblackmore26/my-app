@@ -44,35 +44,35 @@ function Skills() {
               <br></br>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                  <img src={javascript} alt="Image" />
+                  <img src={javascript} alt="Javascript Image" />
                   <h5>Javascript</h5>
                 </div>
                 <div className="item">
-                  <img src={react} alt="Image" />
+                  <img src={react} alt="React Image" />
                   <h5>React</h5>
                 </div>
                 <div className="item">
-                  <img src={python} alt="Image" />
+                  <img src={python} alt="Python Image" />
                   <h5>Python</h5>
                 </div>
                 <div className="item">
-                  <img src={java} alt="Image" />
+                  <img src={java} alt="Java Image" />
                   <h5>Java</h5>
                 </div>
                 <div className="item">
-                  <img src={css} alt="Image" />
+                  <img src={css} alt="CSS Image" />
                   <h5>CSS</h5>
                 </div>
                 <div className="item">
-                  <img src={html} alt="Image" />
+                  <img src={html} alt="HTML Image" />
                   <h5>HTML</h5>
                 </div>
                 <div className="item">
-                  <img src={postgresql} alt="Image" />
+                  <img src={postgresql} alt="PostgreSQL Image" />
                   <h5>PostgreSQL</h5>
                 </div>
                 <div className="item">
-                  <img src={c} alt="Image" />
+                  <img src={c} alt="C Image" />
                   <h5>C</h5>
                 </div>
               </Carousel>
