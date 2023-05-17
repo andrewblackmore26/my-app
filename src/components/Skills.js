@@ -7,6 +7,10 @@ import java from "../assets/java.png";
 import python from "../assets/python.png";
 import javascript from "../assets/javascript2.png";
 import react from "../assets/react.png";
+import postgresql from "../assets/postgresql.png"
+import html from "../assets/html.png"
+import css from "../assets/css.png"
+import c from "../assets/c.png"
 
 
 function Skills() {
@@ -54,6 +58,22 @@ function Skills() {
                 <div className="item">
                   <img src={java} alt="Image" />
                   <h5>Java</h5>
+                </div>
+                <div className="item">
+                  <img src={css} alt="Image" />
+                  <h5>CSS</h5>
+                </div>
+                <div className="item">
+                  <img src={html} alt="Image" />
+                  <h5>HTML</h5>
+                </div>
+                <div className="item">
+                  <img src={postgresql} alt="Image" />
+                  <h5>PostgreSQL</h5>
+                </div>
+                <div className="item">
+                  <img src={c} alt="Image" />
+                  <h5>C</h5>
                 </div>
               </Carousel>
             </div>
