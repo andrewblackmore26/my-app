@@ -23,7 +23,6 @@
 }
 
 .footer {
-  background-color: rgb(53, 0, 44);
   margin-top: auto; /* Push the footer to the bottom */
   width: 100%;
   display: flex;
