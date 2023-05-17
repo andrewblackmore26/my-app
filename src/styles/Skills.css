@@ -8,4 +8,12 @@
   color: #ffffff;
   font-size: 20px;
   line-height: 2;
+  padding-top: 100px;
+}
+
+.footer {
+  background-color: rgb(53, 0, 44);
+  padding: 10px;
+  margin-top: auto; /* Push the footer to the bottom */
+  width: 100%;
 }
