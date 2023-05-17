@@ -81,7 +81,7 @@ function Skills() {
         </Row>
       </Container>
       <footer className="footer">
-        <p>Footer content goes here</p>
+        <p>© Designed & programmed by Andrew Blackmore - 2023</p>
       </footer>
     </div>
   )
