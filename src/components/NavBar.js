@@ -1,6 +1,6 @@
 import React from "react"
 import '../styles/NavBar.css'
-import { Navbar, Nav, Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col } from "react-bootstrap"
 import { Link } from "react-scroll";
 
 function NavBar() {

@@ -16,16 +16,16 @@ function Home() {
       And I hope to share those experiences with you guys!<br></br>
       </p>     
       <div className="icons">
-      <a  href="https://www.instagram.com/andrewblackmore0" target="_blank">
+      <a  href="https://www.instagram.com/andrewblackmore0" >
       <FaInstagram className="icon" />
       </a>
-      <a href="https://github.com/andrewblackmore26" target="_blank">
+      <a href="https://github.com/andrewblackmore26" >
       <FaGithub className="icon" />
       </a>
-      <a href="mailto:andrewblackmore95@gmail.com" target="_blank">
+      <a href="mailto:andrewblackmore95@gmail.com" >
       <FiMail className="icon" />
       </a>
-      <a href="https://www.tiktok.com/@andrewblackmore0" target="_blank">
+      <a href="https://www.tiktok.com/@andrewblackmore0" >
       <FaTiktok className="icon" />
       </a>
       </div>
