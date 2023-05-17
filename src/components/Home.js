@@ -1,18 +1,19 @@
 import React from "react";
 import '../styles/Home.css';
-import {FaInstagram, FaGithub} from "react-icons/fa";
+import {FaInstagram, FaGithub, FaTiktok} from "react-icons/fa";
 import {FiMail} from "react-icons/fi";
 
 function Home() {
   return (
     <div className="home-container" name="about">
       <h2>Welcome to my portfolio website</h2>
-      <p>Here you can find information about me and my work <br></br>
-      Whether it be new projects or new experiences, these events will be uploaded/linked to here <br></br>
+      <p>
+      I am passionate about creating value with software, whether it be for business or entertainment<br></br>
+      New projects that I embark on and complete will be uploaded/linked here <br></br>
       Currently I am a student at UNSW, graduating in the year 2024 <br></br>
-      I have a wide range of experiences, ranging from entrepreneur, content creator and programmer<br></br>
-      With the huge changes coming from tech in the near future, I plan to ride that wave<br></br>
-      And share those experiences with you guys!<br></br>
+      Outside of software engineering, I enjoy sport and have been going to the gym for over a year <br></br>
+      I have a wide range of experiences, ranging from entrepreneur, content creator and programmer<br></br>     
+      And I hope to share those experiences with you guys!<br></br>
       </p>     
       <div className="icons">
       <a  href="https://www.instagram.com/andrewblackmore0" target="_blank">
@@ -23,6 +24,9 @@ function Home() {
       </a>
       <a href="mailto:andrewblackmore95@gmail.com" target="_blank">
       <FiMail className="icon" />
+      </a>
+      <a href="https://www.tiktok.com/@andrewblackmore0" target="_blank">
+      <FaTiktok className="icon" />
       </a>
       </div>
     </div>
