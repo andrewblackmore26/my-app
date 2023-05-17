@@ -3,6 +3,10 @@ import '../styles/Skills.css';
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Col, Row, Container } from "react-bootstrap";
+import java from "../assets/java.png";
+import python from "../assets/python.png";
+import javascript from "../assets/javascript2.png";
+import react from "../assets/react.png";
 
 
 function Skills() {
@@ -33,21 +37,22 @@ function Skills() {
               <h2>
                 Skills
               </h2>
-              <p>Lorem ipsum is simply summy text of the printing and typesetting industry</p>
+              <br></br>
               <Carousel responsive={responsive} infinite={true} className="skill-slider">
                 <div className="item">
-                  <h5>Web Development</h5>
+                  <img src={javascript} alt="Image" />
+                  <h5>Javascript</h5>
                 </div>
                 <div className="item">
-
+                  <img src={react} alt="Image" />
                   <h5>React</h5>
                 </div>
                 <div className="item">
-
+                  <img src={python} alt="Image" />
                   <h5>Python</h5>
                 </div>
                 <div className="item">
-
+                  <img src={java} alt="Image" />
                   <h5>Java</h5>
                 </div>
               </Carousel>
