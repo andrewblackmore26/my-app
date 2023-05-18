@@ -10,7 +10,7 @@ function Home() {
       <p>
       I am passionate about creating value with software, whether it be for business or entertainment<br></br>
       New projects that I embark on and complete will be uploaded/linked here <br></br>
-      Currently I am a student at UNSW, graduating in the year 2024 <br></br>
+      Currently I am a penultimate student at UNSW, graduating in the year 2024 <br></br>
       Outside of software engineering, I enjoy sport and have been going to the gym for over a year <br></br>
       I have a wide range of experiences, ranging from entrepreneur, content creator and programmer<br></br>     
       And I hope to share those experiences with you guys!<br></br>

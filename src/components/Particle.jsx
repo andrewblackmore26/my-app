@@ -110,8 +110,8 @@ function Particle() {
       <div className="maintext">
         <h1>Hey there!😄<br />
         I'm <span className="teal">Andrew Blackmore</span>, <br />
-        a Software Engineer from <br />
-        Sydney, Australia.</h1>
+        a Computer Science student <br />
+        from Sydney, Australia.</h1>
       </div>
     </div>  
   )
